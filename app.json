@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/quotes/quotes",
+    "pages/PlanTask/PlanTask",
+    "pages/DailyTask/DailyTask",
+    "pages/TasksManage/TasksManage",
+    "pages/Records/Records",
+    "pages/Awards/Awards",
+    "pages/Tasks/Tasks",
+    "pages/AwardsManage/AwardsManage"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/quotes/quotes",
+      "text": "首页",
+      "iconPath":"/static/icon/quotes.png",
+      "selectedIconPath":"/static/icon/quotes-active.png"
+    },
+    {
+      "pagePath": "pages/PlanTask/PlanTask",
+      "text": "待办",
+      "iconPath":"/static/icon/todo.png",
+      "selectedIconPath":"/static/icon/todo-active.png"
+    },
+    {
+      "pagePath": "pages/DailyTask/DailyTask",
+      "text": "积分系统",
+      "iconPath":"/static/icon/intergrate.png",
+      "selectedIconPath":"/static/icon/intergrate-active.png"
+    }],
+    "selectedColor":"#000000",
+    "color": "#000000"
+    },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

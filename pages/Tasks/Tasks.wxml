@@ -1,0 +1,13 @@
+<view id="container">
+    <view class="taskBox" wx:for="{{tasks}}" wx:key="*this">
+        <image src="{{item.taskUrl}}"></image>
+        <view id="details">
+            <view id="task">{{item.task}}</view>
+            <view id="value">价值积分:<text>{{item.value}}</text></view>
+        </view>
+        <view id="finishBtn">
+            {{item.finished}}
+        </view>
+    </view>
+</view>
+

@@ -1,0 +1,27 @@
+<view id="container">
+<view>
+<image 
+  src="/static/image/quoteBac.png" 
+  mode="widthFix"></image>
+  <view id="Queto">
+    <view id="EngQuote">{{ Quote_Eng }} </view>
+    <view id="ChiQuote">{{ Quote_Chi }}</view>
+</view>
+</view>
+<view id="info">
+  <view id="head">
+    <view id="title">{{todayTitle}}</view>
+    <view id="Date">{{date}}</view>
+  </view>
+  <view id="body">
+    <view>城市:<text id="t1">{{city}}</text></view>
+    <view>天气:<text id="t2">{{weather}}</text></view>
+    <view>温度:<text id="t3">{{minT}}-{{maxT}}℃</text></view>
+  </view>
+
+  <view id="foot">
+    <view>距离小李的生日还有<text id="t4">{{BirthDay_Li}}</text>天</view>
+    <view>距离小陈的生日还有<text id="t5">{{BirthDay_Chen}}</text>天</view>
+  </view>
+</view>
+</view>

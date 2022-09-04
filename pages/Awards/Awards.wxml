@@ -1,0 +1,12 @@
+<view id="container">
+    <view class="awardBox" wx:for="{{awards}}" wx:key="*this">
+        <image src="{{item.awardUrl}}"></image>
+        <view id="details">
+            <view id="award">{{item.award}}</view>
+            <view id="value">价值积分:<text>{{item.value}}</text></view>
+        </view>
+        <view id="finishBtn">
+            兑换
+        </view>
+    </view>
+</view>

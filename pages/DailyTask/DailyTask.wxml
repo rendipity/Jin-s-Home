@@ -1,0 +1,13 @@
+<view id="container">
+<view id="head">
+<image src="/static/image/headPhoto.png"></image>
+<view>积分：<text id="integral">{{integral}}</text></view>
+</view>
+<view id="taskBar">
+<view class="task" bindtap="gotoPages" data-url="/pages/Tasks/Tasks">每日任务</view>
+<view class="task" bindtap="gotoPages" data-url="/pages/Awards/Awards">兑换奖励</view>
+<view class="task" bindtap="gotoPages" data-url="/pages/Records/Records">查询记录</view>
+<view class="task" bindtap="gotoPages" data-url="/pages/TasksManage/TasksManage">任务管理</view>
+<view class="task" id="lastTask" bindtap="gotoPages" data-url="/pages/AwardsManage/AwardsManage">奖励管理</view>
+</view>
+</view>

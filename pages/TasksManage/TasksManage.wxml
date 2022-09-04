@@ -1,0 +1,20 @@
+<view id="container">
+  <view id="head">
+    <view class="content">
+      <text>任务内容</text>
+      <input type="text" placeholder="请输入任务内容"/>
+    </view>
+    <view class="content" id="bottom">
+      <text>任务积分</text>
+      <input type="text" placeholder="请输入任务积分"/>
+    </view>
+  </view>
+  <view id="body">
+    <view id="tips">任务图片(非必需)</view>
+    <view id="icon">
+    <image src="/static/image/camara.png"></image>
+    </view>
+    
+  </view>
+  <view id="foot">添加</view>
+</view>

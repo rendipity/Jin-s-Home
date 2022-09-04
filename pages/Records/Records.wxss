@@ -1,0 +1,42 @@
+/* pages/Awards/Awards.wxss */
+page{
+    background-color: #F2F2F2;
+    height: 100%;
+}
+.recordBox{
+    width: 94%;
+    height: 200rpx;
+    margin: 30rpx auto 0 auto;
+    background-color: #FFFFFF;
+    display: flex;
+    border-radius: 24rpx;
+}
+.recordBox image{
+    width: 140rpx;
+    height: 140rpx;
+    margin: auto 30rpx;
+    border-radius: 50%;
+}
+#details{
+    flex: 1;
+    text-align: left;
+    margin: auto 10rpx;
+}
+#record{
+    color: #F3B90C;
+    margin-bottom: 10rpx;
+    font-size: 36rpx;
+}
+#Date{
+    font-size: 28rpx;
+    color: #BEB0B0;
+}
+#NumberRecord{
+    font-size: 40rpx;
+    width: 72rpx;
+    height: 60rpx;
+    margin: auto 72rpx auto 0;
+    text-align: center;
+    line-height: 60rpx;
+    color: #888282;
+}

@@ -1,0 +1,40 @@
+#head{
+  display: flex;
+  background: linear-gradient(to top right,#FECEB4 0%,#FFC5C1 60%,#FEBFC9 100%);
+  width: 94%;
+  height: 290rpx;
+  margin: 60rpx auto;
+  align-items: center;
+  border-radius: 24rpx;
+}
+#head image{
+  width: 188rpx;
+  height: 188rpx;
+  margin-left: 48rpx;
+  border-radius: 50%;
+}
+#head view{
+  width: 52%;
+  font-size: 60rpx;
+  color: white;
+  text-align: right;
+}
+
+#taskBar {
+  margin: auto;
+  width: 94%;
+  height: 560rpx;
+  border-radius: 20rpx;
+  background-color: #FFFFFF;
+  box-shadow: 0 10rpx 30rpx 2rpx rgba(0,0,0,0.15);
+}
+.task{
+  font-size: 30rpx;
+  height: 20%;
+  line-height: 110rpx;
+  border-bottom: solid 2rpx rgba(181,165,165,0.44);
+  margin: 0 30rpx;
+}
+#lastTask{
+  border-bottom: none;
+}

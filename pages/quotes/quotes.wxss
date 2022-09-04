@@ -1,0 +1,73 @@
+#container{
+  position:absolute;
+  z-index: -99;
+  height: 100%;
+  min-height: 500rpx;
+}
+#container image{
+  width: 100%;
+  position:absolute;
+  z-index: -1;
+}
+#Queto{
+  height: 550rpx;
+  margin-left: 40rpx;
+}
+#Queto #EngQuote{
+  font-size: 64rpx;
+  color: white;
+  padding-top: 90rpx;
+}
+#Queto #ChiQuote{
+  font-size: 60rpx;
+  color: white;
+  padding-top: 20rpx;
+}
+#info{
+  margin: 60rpx 40rpx;
+}
+#head{
+  margin-bottom: 45rpx;
+}
+#head #title{
+  font-size: 54rpx;
+}
+#head #Date{
+  font-size: 36rpx;
+  color: #646974;
+}
+#body{
+  font-size: 42rpx;
+  margin-bottom: 45rpx;
+}
+#body view{
+  padding-top: 15rpx 0;
+}
+#foot{
+  font-size: 42rpx;
+}
+#foot view{
+  padding-top: 15rpx;
+}
+text{
+  display: inline-block;
+  width: 200rpx;
+  margin: 0 30rpx;
+}
+#t1{
+  color: #1A8AC3;
+}
+#t2{
+  color: #C39F1A;
+}
+#t3{
+  color:#DAC612;
+}
+#t4{
+  width: 100rpx;
+  color:#15C3B6;
+}
+#t5{
+  width: 100rpx;
+  color: #CC00FF;
+}

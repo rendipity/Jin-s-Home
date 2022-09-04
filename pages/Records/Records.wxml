@@ -1,0 +1,12 @@
+<view id="container">
+    <view class="recordBox" wx:for="{{records}}" wx:key="*this">
+        <image src="{{item.recordUrl}}"></image>
+        <view id="details">
+            <view id="record">{{item.record}}</view>
+            <view id="Date">时间:<text>{{item.Date}}</text></view>
+        </view>
+        <view id="NumberRecord">
+            {{item.Number}}
+        </view>
+    </view>
+</view>

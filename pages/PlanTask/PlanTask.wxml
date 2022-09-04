@@ -1,0 +1,13 @@
+<view>
+    <view id="head">
+        <image src="/static/image/todoBac.png" id="bacc" mode="scaleToFill"></image>
+        <view id="headBox">
+            <view id="info">
+                <view id="hello">Hello,<text>小陈</text></view>
+                <view id="Date">9月4日</view>
+            </view>
+            <image src="/static/image/headPhoto.png"></image>
+        </view>
+    </view>
+
+</view>
